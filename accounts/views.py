@@ -1,9 +1,13 @@
-from django.urls import reverse_lazy
-from django.views.generic import CreateView, UpdateView, DetailView
-from .forms import CustomUserCreationForm
-from .models import Profile
-
+from django.views.generic import ListView, DetailView
+from .models import Book
 # Create your views here.
+class BookListView(ListView):
+ model = Book
+ context_object_name = 'book_list'
+ template_name = 'books/book_list.html'
+class BookDetailView(DetailView):
+ model = Book
+ template_name = 'books/book_detail.html'
 
 class SignUpView(CreateView):
     form_class = CustomUserCreationForm
