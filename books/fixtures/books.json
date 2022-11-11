@@ -1,0 +1,35 @@
+[
+    {
+        "model": "books.book",
+        "pk": "1629c626-1cfa-4b3a-882c-e6069a5f3ae1",
+        "fields": {
+            "title": "Django Unleashed",
+            "author": "Dr. Seus",
+            "price": "7.00",
+            "date_publication": "2022-10-05",
+            "cover": "covers/DjangoUnleashed.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": "8b8aeb08-c1f0-410a-bbfc-2441875730b6",
+        "fields": {
+            "title": "Python Cookbook: Recipes for Mastering Python",
+            "author": "Colleen Hoover",
+            "price": "10.00",
+            "date_publication": "2022-11-14",
+            "cover": "covers/PythonCookbook_Hh9QMlX.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": "aecbb86e-773b-4be7-af17-afb24fe8cd6d",
+        "fields": {
+            "title": "Lightweight Django",
+            "author": "Colleen Hoover",
+            "price": "12.00",
+            "date_publication": "2022-11-02",
+            "cover": "covers/Lightweight.jpg"
+        }
+    }
+]
